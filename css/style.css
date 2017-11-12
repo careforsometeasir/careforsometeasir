@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans|Oxygen|Material+Icons');
+body{
+	background-color: #F5F5F5;
+	color: #272727;
+	margin: 0;
+}
+a {
+	color: #272727;
+	text-decoration: none;
+}
+a:hover{
+	color: #4C4C4C;
+}
+@media screen and (min-width:500px){
+	#content{
+		width: 80%;
+		max-width: 1000px;
+		padding: 10px;
+		margin: auto;
+	}
+	#content p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13pt;
+	}
+	#content h1{
+		font-family: 'Inconsolata', monospace;
+		font-size: 23pt;
+	}
+	.textbox p{
+		font-size: 18pt;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.textbox{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.github-icon{
+		padding: 0px 5px;
+		align: left;
+		vertical-align: middle;
+		height: 32px;
+		width: 32px;
+	}
+	.copy-icons{
+		height: 20px;
+		width: 20px;
+	}
+}
+
+	
+@media screen and (max-width:499.99px){
+	#content{
+		width: 90%;
+		max-width: 1000px;
+		padding: 5px;
+		margin: auto;
+	}
+	#content p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 11pt;
+	}
+	#content h1{
+		font-family: 'Inconsolata', monospace;
+		font-size: 21pt;
+	}
+	.textbox p{
+		font-size: 18pt;
+		margin-top: 0;
+		white-space: nowrap;
+		margin-bottom: 0;
+	}
+	.textbox{
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -25%);
+	}
+	.github-icon{
+		padding: 0px 5px;
+		align: left;
+		vertical-align: middle;
+		height: 20px;
+		width: 20px;
+	}
+	.copy-icons{
+		height: 16px;
+		width: 16px;
+	}
+}
+.banner{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	background-color: #000000;
+}
+.banner #bg{
+	width: 100%;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.textbox h1{
+	font-size: 32pt;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.textbox{
+	color: #FFFFFF;
+}
+.soter{
+	padding: 5px;
+}
+#lock{
+	float: left;
+	font-size: 200px;
+}
+.copy{
+	text-align: center;
+}
+.social{
+	padding: 10px 5px;
+}
