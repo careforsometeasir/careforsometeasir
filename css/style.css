@@ -5,6 +5,9 @@ body{
 	color: #272727;
 	margin: 0;
 }
+ul {
+    list-style-image: url('images/star.svg');
+}
 a {
 	color: #272727;
 	text-decoration: none;
