@@ -6,7 +6,7 @@ body{
 	margin: 0;
 }
 ul {
-    list-style-image: url('images/star.svg');
+    list-style-image: url('../images/star.svg');
 }
 a {
 	color: #272727;
@@ -22,7 +22,7 @@ a:hover{
 		padding: 10px;
 		margin: auto;
 	}
-	#content p ul{
+	#content p{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
 	}
@@ -62,7 +62,7 @@ a:hover{
 		padding: 5px;
 		margin: auto;
 	}
-	#content p ul{
+	#content p{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 11pt;
 	}
