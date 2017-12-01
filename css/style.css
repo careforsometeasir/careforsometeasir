@@ -26,6 +26,7 @@ a:hover{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
 	}
+	ul{font-size: 13pt;}
 	#content h1{
 		font-family: 'Inconsolata', monospace;
 		font-size: 23pt;
@@ -62,6 +63,7 @@ a:hover{
 		padding: 5px;
 		margin: auto;
 	}
+	ul{font-size: 11pt;}
 	#content p{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 11pt;
