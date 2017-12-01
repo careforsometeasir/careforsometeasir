@@ -19,7 +19,7 @@ a:hover{
 		padding: 10px;
 		margin: auto;
 	}
-	#content p{
+	#content p ul{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
 	}
@@ -59,7 +59,7 @@ a:hover{
 		padding: 5px;
 		margin: auto;
 	}
-	#content p{
+	#content p ul{
 		font-family: 'Open Sans', sans-serif;
 		font-size: 11pt;
 	}
@@ -126,3 +126,4 @@ a:hover{
 .social{
 	padding: 10px 5px;
 }
+
