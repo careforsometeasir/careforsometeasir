@@ -1,0 +1,68 @@
+/*Get fonts*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans');
+/*remove all padding/margins from body*/
+body {
+  background: #f9f1f1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+}
+/*Add line after h1*/
+h1::after {
+  content: '';
+  display: block;
+  border: 2px solid #90caf9;
+  border-radius: 4px;
+  width: 35px;
+}
+#textbox h1::after {
+  content: '';
+  border: none;
+}
+#textbox h1 {
+  border-top: solid 3px black;
+}
+#header {
+  height: 100px;
+  background: #e0d99a;
+  position: relative;
+}
+#textbox {
+  position: absolute;
+  top: 25%;
+  left: 90%;
+  transform: translate(-90%, -25%);
+}
+#weave {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+#content {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (min-width: 425px){
+  #content {
+    width: 65%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 375px){
+  #content {
+    width: 90%;
+    margin: auto;
+  }
+  #weave {
+    margin-left: 25px;
+  }
+}
+p::selection, h1::selection {
+  background: #C0BCBB;
+  color: #000;
+}
