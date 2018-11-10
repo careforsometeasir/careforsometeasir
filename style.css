@@ -66,3 +66,8 @@ p::selection, h1::selection, li::selection {
   background: #C0BCBB;
   color: #000;
 }
+@media print {
+  #weave, .form {
+    display: none;
+  }
+}
