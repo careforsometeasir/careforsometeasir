@@ -62,7 +62,7 @@ h1::after {
     margin-left: 25px;
   }
 }
-p::selection, h1::selection {
+p::selection, h1::selection, li::selection {
   background: #C0BCBB;
   color: #000;
 }
